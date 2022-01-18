@@ -1,4 +1,9 @@
 import {header} from './header.js';
+import {userCard} from './userCard.js';
+import {sidebarMenu} from './sidebarMenu.js';
+import {topbar} from './topbar.js';
+import {todayP} from './todayP.js';
+import {daylyI} from './dailyIndicators.js'
 
 webix.ready(function() {
   webix.ui({
@@ -11,9 +16,9 @@ webix.ready(function() {
           {
             gravity: 1,
             rows: [
-              {template: 'dataview'},
-              {template: 'sidebar'},
-              {},
+              userCard,
+              sidebarMenu,
+            //  {},
             ],
           },
           // sidebar
@@ -21,16 +26,12 @@ webix.ready(function() {
             gravity: 4,
             type: 'space',
             rows: [
-              {template: 'toolbar', gravity: 1},
+				topbar,
               {
                 gravity: 3,
                 cols: [
-                  {template: 'chart'},
-                  {template: 'dataview'},
-                  {template: 'dataview'},
-                  {template: 'dataview'},
-                  {template: 'dataview'},
-                  {template: 'dataview'},
+					todayP,
+					daylyI
                 ],
               },
               {
