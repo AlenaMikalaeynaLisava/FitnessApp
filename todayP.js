@@ -16,10 +16,14 @@ export const todayP = {
 		{
 			view: "chart",
 			type: "donut",
-			value: "#value#",
+			value: "#sales#",
 			color: "#color#",
 			padding: 30,
-			innerRadius: 70,
+			radius:40,
+			border:false,
+			innerRadius: 20,
+			lineColor:"#ee3639",
+			donutInnerText: "80",
 			legend: {
 				layout: "y",
 				width: 120,
@@ -31,7 +35,10 @@ export const todayP = {
 				valign: "middle",
 				align: "right"
 			},
-			//data: dataProdScore
+			data: [
+	{ sales:"20", month:"Jan", color: "#ee3639" },
+	{ sales:"80", month:"Fen", color: "#ee9e36" },
+]
 		}
 	]
 };

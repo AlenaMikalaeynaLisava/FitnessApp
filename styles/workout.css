@@ -1,0 +1,20 @@
+.completeWrapp {
+    width: 80px;
+    height: 8px;
+    border-radius: 20px;
+    background: #DFE2E6;
+    position: relative;
+    overflow: hidden;
+}
+.completeBar {
+    background: #1CA1C1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.completeVal {
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 12px;
+}
