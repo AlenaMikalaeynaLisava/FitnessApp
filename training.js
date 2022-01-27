@@ -1,24 +1,42 @@
 export const training = {
-    type:"clean",
+    //type:"clean",
+    height:180,
     rows:[
         {
             view: "template",
-            template: "training"
+            template: "training",
+            height:20,
+            //gravity: 1,
           },
- {cols:[
+ {
+     //gravity: 18,
+    height:160,
+     cols:[
+
     { view:"icon", icon:"webix_icon wxi-angle-left", align:"left"},
      {
+         //height:150,
         view:"list",
+        layout:"x",
+        type:{
+            height:150
+        },
         //icon fire
-        template:'<img style="height:20px;" src=#src#></img> <span> #title#, #indicator#</span>',
+        //icon clock-outline
+        //play-circle-outline
+        template:`<div style="height:120px;">
+        <img style="height:30px;" src=#src#></img>
+        <div>#title#</div>
+        <span><span class='mdi mdi-clock-outline'>#time#</span> 
+        <span class='mdi mdi-fire'>#calories#</span></span>
+        <span style="line-height:30px;" class="mdi mdi-play-circle-outline"></span>
+        </div>
+        
+        `,
         data:[
-            { id:1, src:"./icons/smallSmile/smallSmile.png", title:"Weight lose", indicator:"8.3 hr"},
-            { id:2, src:"./icons/smallSmile/smallFood.png", title:"Meal plan", indicator:"8.3 hr"},
-            { id:3, src:"./icons/smallSmile/smallSteps.png", title:"Steps", indicator:"8.3 hr"},
-            { id:4, src:"./icons/smallSmile/smallYoga.png", title:"Yoga", indicator:"8.3 hr"},
-            { id:5, src:"./icons/smallSmile/smallApple.png", title:"Fruit", indicator:"8.3 hr"},
-            { id:6, src:"./icons/smallSmile/smallDrop.png", title:"Water", indicator:"8.3 hr"},
-            { id:7, src:"./icons/smallSmile/smallSleep.png", title:"Sleep", indicator:"8.3 hr"},
+            { id:1, src:"./images/Running.png", title:"Running", time:"8.3 hr", calories:"300 kkal"},
+            { id:2, src:"./images/Yoga.png", title:"Yoga", time:"8.3 hr", calories:"100 kkal"},
+            { id:3, src:"./images/Poverup.png", title:"Pover up", time:"8.3 hr", calories:"200 kkal"},
         ]
       },
       { view:"icon", icon:"webix_icon wxi-angle-right", align:"left"}

@@ -3,7 +3,7 @@ export const todayP = {
 		{
 			view: "toolbar",
 			padding: {left: 10},
-			height: 40,
+			//height: 40,
 			margin: 16,
 			cols: [
 				{

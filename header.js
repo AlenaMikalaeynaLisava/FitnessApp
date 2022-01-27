@@ -1,8 +1,9 @@
 export const header = {
   view: 'toolbar',
+  gravity:1,
   css: "webix_dark darkHeader",
-  padding: {left: 5, right: 20, top: 8, bottom: 8},
-  margin: 12,
+  //padding: {left: 5, right: 20, top: 8, bottom: 8},
+  //margin: 12,
   cols: [
     {
       view: 'icon',

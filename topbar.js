@@ -1,5 +1,6 @@
 export const topbar = {
 	margin: 10,
+  gravity: 1,
 	cols: [
 		{
 			view: "label",

@@ -24,7 +24,7 @@ export const fitnessA = {
     {
         view:"chart",
         width:300,
-        height:170,
+      //  height:170,
         type:"splineArea",
         value:"#steps#",
         css:"myClass",
