@@ -4,17 +4,39 @@
 		background: #20262B;
 		border-color: #20262B;
 	}
-
-.sidebarMenu .webix_tree_item.webix_icon {
+	.sidebarUser {
+		border-bottom-color: #707886;
+	}
+/* .sidebarMenu .webix_tree_item.webix_icon {
 			color: #fff;
+		} */
+		.webix_sidebar .webix_tree_item.webix_selected,
+		.webix_sidebar .webix_tree_item.webix_selected{
+			background-color: #384047;
+			font-weight: 500;
+		}
+		.webix_sidebar .webix_tree_item.webix_selected span, .webix_sidebar .webix_tree_item.webix_selected .webix_sidebar_icon {
+			color: #7A67EB;
+
+		}
+		.webix_sidebar .webix_tree_item span{
+			font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+			color: #FFFFFF;
 		}
 
-.webix_sidebar.webix_dark .newTag {
-	color: #1CA1C1;
+		.webix_sidebar .webix_tree_item .mdi{
+			color: #9FA1AE;
+		}
+/* .webix_sidebar.newTag {
+	color: #7A67EB;
 }
-	.webix_sidebar.webix_dark .newTag .mdi {
-		color: #1CA1C1;
-	}
+	.webix_sidebar .newTag .mdi {
+		color: #7A67EB;
+	} */
 .userWrapp {
 	box-sizing: border-box;
 	display: flex;
@@ -43,9 +65,10 @@
 
 .userInfo {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	flex-direction: column;
 	width: 143px;
+	height:143px;
 }
 .userName {
 	display: flex;

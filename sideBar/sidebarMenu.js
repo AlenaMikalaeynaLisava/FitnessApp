@@ -2,7 +2,8 @@ import {dataSidebarMenu} from "../data/dataSidebarMenu.js";
 
 export const sidebarMenu = {
 	view: "sidebar",
-	css: "webix_dark sidebarMenu",
+	css: "sidebarMenu",
+	//scroll:"y",
 	gravity: 31,
 	select: true,
 	//height: 188,

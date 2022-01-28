@@ -7,6 +7,6 @@ export const sidebar = {
         rows: [
           userCard,
           sidebarMenu,
-          {gravity: 44},
+         // {gravity: 44},
         ],
 };

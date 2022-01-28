@@ -9,6 +9,7 @@ export const topbar = {
 		},
 		{
             view:"richselect",
+            width:112,
           //  label:"richselect", 
             value:1, 
             yCount:"3", 
@@ -17,6 +18,7 @@ export const topbar = {
                 {id:1, value:"Today"}, 
                 {id:2, value:"Tomorrow"}
             ]
-        }
+        }, 
+        {}
 	]
 };
