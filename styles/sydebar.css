@@ -1,9 +1,4 @@
 
-.leftSidebar, .sidebarUser {
-    background: #20262B;
-    border-color: #20262B;
-	}
-	/* .leftSidebar  */
 	.sidebarMenu, .sidebarUser {
 		/* border-bottom-color: #707886; */
 		background: #20262B;
@@ -38,10 +33,10 @@
     
 }
     .userImg	img {
-		/* width: 123px; 
-		height: 123px; */
-		width: 50%;
-		height: 50%;
+		width: 123px; 
+		height: 123px;
+		/* width: 50%;
+		height: 50%; */
 		border-radius: 50%;
 		overflow: hidden;
 	}
@@ -50,30 +45,40 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	width: 143px;
 }
 .userName {
+	display: flex;
+	justify-content: center;
 	color: #fff;
 	 font-weight: 500;
-	/*font-size: 16px;
-	line-height: 20px; */
-	font-size: 0.04vh;
-	/* line-height: 20px; */
+	font-size: 16px;
+	line-height: 20px; 
+	/* font-size: 0.04vh; */
+	 line-height: 20px; 
 	margin-bottom: 4px;
 }
 .userPosition {
+	display: flex;
+	justify-content: space-between;
+/* flex-direction: column; */
 	color: rgba(255, 255, 255, 0.7);
+}
+.userResult{
+	/* margin-left: 30px; */
+	 color: #FFFFFF;
 }
 .userStatus {
 	background-color: #55CD97;
 	border-radius: 50%;
 	border: 5% solid #fff;
-	/* width: 12px;
-	height: 12px; */
-	width: 3%;
-	height: 6%;
+	width: 12px;
+	height: 12px;
+	/* width: 3%;
+	height: 6%; */
 	position: absolute;
-	/* bottom: 10px;
-	right: 10px; */
-	bottom: 10%;
-	right: 32%;
+	bottom: 10px;
+	right: 10px;
+	/* bottom: 10%;
+	right: 32%; */
 }

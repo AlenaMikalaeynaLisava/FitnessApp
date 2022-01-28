@@ -1,4 +1,4 @@
-     .webix_badge {
+    .webix_badge {
         border: 2px solid #FFFFFF;
         box-sizing: content-box;
         background-color: #FF5C4C;
@@ -8,12 +8,11 @@
         height: 16px;
         width: 16px;
     } 
-    .webix_dark.darkHeader {
-        background: #20262B;
+    .darkHeader {
+       background: #20262B;
         border-color: #20262B;
     }
-     /* .webix_dark .webix_view >.webix_template {
-                background-color: #313131;
-            } */
-         
+    .webix_toolbar .webix_el_label .webix_el_box{
+        color:#FFFFFF;
+    }
     
