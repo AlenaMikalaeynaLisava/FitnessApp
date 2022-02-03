@@ -1,44 +1,24 @@
 import {topbar} from './topbar.js';
-import {todayP} from './todayP.js';
-import {daylyI} from './dailyIndicators.js';
-import {yourGoals} from './yourGoals.js';
-import {fitnessA} from './fitnessActivity.js';
-import {workoutS} from './workoutS.js';
-import{training} from'./training.js';
-import{heartR} from'./heartRate.js';
+import {topPanel} from './topPanel/topPanel.js';
+import {middlePanel}from'./middlePanel/middlePanel.js';
+import {bottomPanel} from './bottomPart/bottomPanel.js'
+
 
 
 export const centralPart = {
+    view:"scrollview", 
+    scroll:"y",
+    body:{
+        rows: [
+            topbar,
+            topPanel,
+            middlePanel,
+            bottomPanel
+        ],
+    },
     css: "mainPart",
     gravity: 4,
-      type: 'space',
-      margin:20,
-      rows: [
-          topbar,
-        {
-          height:180,
-          //gravity: 5,
-          cols: [
-              todayP,
-              daylyI
-          ],
-        },
-        {
-          height:180,
-         // gravity: 10,
-          cols: [
-              yourGoals,
-              fitnessA,
-              workoutS
-          ],
-        },
-        {
-          height:180,
-         // gravity: 12,
-          cols: [
-              training,
-    heartR
-          ],
-        },
-      ],
+      //type: 'space',
+      margin:0,
+
 };

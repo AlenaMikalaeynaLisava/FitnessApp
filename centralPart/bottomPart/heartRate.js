@@ -2,6 +2,8 @@ export const heartR = {
     width:300,
     rows:[
         {
+          css:"yourGoals  listText",
+          height:30,
         cols: [
             {
                 view: "label",
@@ -11,7 +13,6 @@ export const heartR = {
             {},
             {
                 view:"richselect",
-              //  label:"richselect", 
                 value:1, 
                 yCount:"3", 
                 options:[ 

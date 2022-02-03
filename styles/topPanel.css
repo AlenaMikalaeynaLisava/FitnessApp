@@ -1,0 +1,28 @@
+.topColor {
+    background:  rgba(32, 38, 43, 0.8);
+    border-color:  rgba(32, 38, 43, 0.8);
+}
+.topColor1 {
+    background:  #2B343B;
+    border-color:  #2B343B;
+}
+.stil1{
+	display:block;
+}
+.temp{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding:35px 10px;
+	border-radius: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 8px;
+    color: #303030;
+ background-color: #2B343B;
+	background:   #22292E;
+    border-color:  #22292E;
+}
+.topColor1 .webix_dataview_item{
+   border:none
+  }
+ 

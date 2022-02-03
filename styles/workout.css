@@ -1,20 +1,66 @@
-.completeWrapp {
-    width: 80px;
-    height: 8px;
-    border-radius: 20px;
-    background: #DFE2E6;
-    position: relative;
-    overflow: hidden;
+.yourGoals{
+background:   #22292E;
+border:#22292E;
+border-bottom:  1.5px solid #595E62; 
 }
+.completeWrapp {
+width: 80px;
+height: 8px;
+border-radius: 20px;
+background: #595E62;
+position: relative;
+overflow: hidden;
+}
+/* .completeWrapp1 {
+    background-color:   #22292E;
+    border-color:  #22292E;
+    } */
 .completeBar {
-    background: #1CA1C1;
+background: linear-gradient(270deg, #7A67EB 9.76%, #541890 93.75%);
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+}
+.completeBar1 {
+    /* background: #6338B4; */
+    background:linear-gradient(270deg, #F6D365 43.32%, #F27551 100.07%);
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
-}
+    }
 .completeVal {
-    font-weight: 500;
-    line-height: 20px;
-    margin-left: 12px;
+font-weight: 500;
+line-height: 20px;
+margin-left: 12px;
+}
+.completeVal1 {
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+}
+.listText{
+color:#FFFFFF;
+}
+.yourG{
+display:flex;
+justify-content: space-between;
+padding:5px;
+}
+.yourGoals .webix_list_item{
+border-bottom: 1px solid #595E62;
+}
+/* .myChart */
+.webix_canvas_text.webix_axis_item_y, .webix_canvas_text.webix_axis_item_x{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+color: #94A1B3;
+}
+.listW, .listW .webix_list_item{
+    background-color:   #22292E;
+    border-color:  #22292E;
 }
