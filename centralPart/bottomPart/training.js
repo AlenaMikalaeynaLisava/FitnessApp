@@ -13,7 +13,6 @@ export const training = {
  {
     height:100,
      cols:[
-
     { view:"icon", icon:"webix_icon wxi-angle-left", align:"left"},
     //  {
     //     view:"list",
@@ -37,22 +36,28 @@ export const training = {
     //     ]
     //   },
       {
-        gravity:4,
+       // gravity:4,
         view:"dataview",   
-        css:"topColor1",     
-        xCount:3,
-        select:true,
+        css:"topColor1",    
+        yCount:1,
+        yCount:3,
+      //  scroll:true,
+        //select:true,
         type: {
-          height:"auto",
-          width:"auto",
+          height:250,
+          width:250,
         },
         template: function (obj) {
-          return `<div>
-          <img style="height:120px;" src=${obj.src}></img>
-          <div>${obj.title}</div>
-          <span><span class='mdi mdi-clock-outline'>${obj.time}</span> 
-          <span class='mdi mdi-fire'>${obj.calories}</span>
-          <span style="line-height:30px;" class="mdi mdi-play-circle-outline"></span>
+          return `<div style="width:230px;">
+          <img style="height:180px;" src=${obj.src}></img>
+          <div class="fl"> 
+          <div>
+          <div class="objTit">${obj.title}</div>
+          <span class="objRst"><span class='mdi mdi-clock-outline'>${obj.time}</span> 
+          <span class='mdi mdi-fire'>${obj.calories}</span></span>
+          </div>
+          <span style="line-height:30px;" class="objFire mdi mdi-play-circle-outline"></span>
+          <div>
           </div>
           `
       },
