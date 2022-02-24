@@ -8,11 +8,6 @@
         height: 16px;
         width: 16px;
     } 
-    .darkHeader {
-       background: #20262B;
-        border-color: #20262B;
-        border-color: #20262B;
-    }
     .webix_toolbar .webix_el_label .webix_el_box{
         color:#FFFFFF;
     }

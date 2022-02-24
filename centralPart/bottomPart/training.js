@@ -37,27 +37,26 @@ export const training = {
     //   },
       {
        // gravity:4,
-        view:"dataview",   
-        css:"topColor1",    
-        yCount:1,
-        yCount:3,
-      //  scroll:true,
-        //select:true,
-        type: {
-          height:250,
-          width:250,
-        },
+       view:"dataview",   
+       css:"topColor1",   
+       scroll:false,  
+       xCount:3,
+       select:true,
+       type: {
+         height:120,
+         width:"auto",
+       },
         template: function (obj) {
-          return `<div style="width:230px;">
-          <img style="height:180px;" src=${obj.src}></img>
+          return `<div>
+          <img src=${obj.src}></img>
           <div class="fl"> 
           <div>
           <div class="objTit">${obj.title}</div>
-          <span class="objRst"><span class='mdi mdi-clock-outline'>${obj.time}</span> 
-          <span class='mdi mdi-fire'>${obj.calories}</span></span>
+          <span class="objRst"><span class="mdi mdi-clock-outline">${obj.time}</span> 
+          <span class="mdi mdi-fire">${obj.calories}</span></span>
           </div>
-          <span style="line-height:30px;" class="objFire mdi mdi-play-circle-outline"></span>
-          <div>
+          <span class="objFire mdi mdi-play-circle-outline"></span>
+          </div>
           </div>
           `
       },

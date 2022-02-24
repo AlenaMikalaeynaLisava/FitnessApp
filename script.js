@@ -1,12 +1,15 @@
 import {header} from './header.js';
 import {mainPart} from './mainPart.js'
 
-webix.ready(function() {
+
+webix.ready(() => {
+  if (!webix.env.touch && webix.env.scrollSize)
+  webix.CustomScroll.init();
+
   webix.ui({
-    css:"basicStyle",
-    rows: [
-      header,
-      mainPart
-    ],
+      rows: [
+        header,
+        mainPart,
+      ],
   });
 });

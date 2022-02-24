@@ -1,6 +1,9 @@
 export const heartR = {
-    width:300,
-    height:307,
+  view:"scrollview", 
+  scroll:"xy",
+  body:{
+   // width:300,
+    //height:307,
     rows:[
         {
           css:"yourGoals  listText",
@@ -80,7 +83,7 @@ borderWidth: 2,
       ]
       }
     ]
-
+  }
 }
 // {
 //   view:"chart",

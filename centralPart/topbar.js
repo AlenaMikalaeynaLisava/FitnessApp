@@ -5,12 +5,13 @@ export const topbar = {
 		{
 			view: "label",
 			label: "Dashboard",
-			width: 76
+			width: 76,
+     // height:50,
 		},
 		{
             view:"richselect",
+            css:"topRich",
             width:112,
-          //  label:"richselect", 
             value:1, 
             yCount:"3", 
             options:[ 

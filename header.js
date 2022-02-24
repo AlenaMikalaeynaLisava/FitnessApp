@@ -1,7 +1,8 @@
 export const header = {
   view: 'toolbar',
   gravity:1,
-  css: "darkHeader",
+  maxHeight:56,
+  css: "dark",
   cols: [
     {
       view: 'icon',

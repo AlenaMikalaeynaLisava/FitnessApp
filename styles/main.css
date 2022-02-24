@@ -2,6 +2,10 @@
     background: #2B343B;
     border-color: #2B343B;
 }
+.dark{
+    background: #20262B;
+    border-color: #20262B;
+ }
 .webix_el_label .webix_el_box{
     color: #FFFFFF;
 }

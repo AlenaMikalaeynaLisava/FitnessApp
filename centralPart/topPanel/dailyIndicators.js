@@ -1,16 +1,17 @@
 export const daylyI = {
-  gravity:4,
+  gravity: 7,
     view:"dataview",   
-    css:"topColor1",     
-    xCount:4,
+    css:"mainPart borderLess",   
+    //scroll:false,  //why?
+    xCount:5,
     select:true,
     type: {
-      height:120,
-      width:"auto",
+      height:152,
+      width:192,
     },
     template: function (obj) {
       return `<div class="temp">
-      <img style="height:40px;" src=${obj.src}></img>
+      <img style="height:64px;" src=${obj.src}></img>
       <div>
       <div style="color:rgba(255, 255, 255, 0.8)"> ${obj.title}</div> 
       <div style="color:${obj.color}">${obj.indicator}</div>

@@ -1,5 +1,15 @@
-.basicStyle {
+/* .basicStyle {
 background: #20262B;
 border-color: #20262B;
   font-family: 'Roboto', sans-serif;
-} 
+}  */
+.webix_el_richselect .webix_el_box .webix_inp_static{
+  background: #22292E;
+  border-color: #22292E;
+  color: rgba(255, 255, 255, 0.7);
+}
+.webix_el_richselect.topRich .webix_el_box .webix_inp_static{
+  background: #2B343B;
+  border-color: #384047;
+  color: #F5F4F3;
+}

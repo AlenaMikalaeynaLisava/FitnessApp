@@ -4,7 +4,8 @@ import {workoutS} from './workoutS.js';
 export const middlePanel = {
     type: 'space',
     css:"mainPart",
-        height:180,
+    gravity:8,
+       // height:180,
         cols: [
             yourGoals,
             fitnessA,

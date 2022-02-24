@@ -10,7 +10,7 @@ export const yourGoals = {
           {
             css:"yourGoals",
             view:"list",
-         // scroll:false,
+          scroll:false,
            // template:'<img style="height:20px;" src=#src#></img> <span> #title#, #indicator#</span>',
             template:function(obj){
               const html = `

@@ -1,8 +1,7 @@
 export const userCard = {
   view: 'template',
-  	css: "sidebarUser",
-      gravity: 25,
-  height: 204,
+  	css: "dark sidebarUser",
+  maxHeight: 247,
   scroll:true,
   template(obj) {
      let html = `
