@@ -1,26 +1,31 @@
 .yourGoals{
 background:   #22292E;
-border:#22292E;
-border-bottom:  1.5px solid #595E62; 
+border: 1px solid #384047;
 }
+.fitnrssA{
+    border-bottom:  1.5px solid #595E62; 
+    }
 .completeWrapp {
-width: 80px;
+/* width: 80px; */
 height: 8px;
 border-radius: 20px;
 background: #595E62;
 position: relative;
 overflow: hidden;
+font-size: 12px;
 }
-/* .completeWrapp1 {
-    background-color:   #22292E;
-    border-color:  #22292E;
-    } */
+
+.completeWrapp2 {
+    width: 130px;
+    font-size: 12px;
+    } 
 .completeBar {
 background: linear-gradient(270deg, #7A67EB 9.76%, #541890 93.75%);
 position: absolute;
 top: 0;
 left: 0;
 bottom: 0;
+font-size: 12px;
 }
 .completeBar1 {
     /* background: #6338B4; */
@@ -29,19 +34,23 @@ bottom: 0;
     top: 0;
     left: 0;
     bottom: 0;
+    font-size: 12px;
     }
 .completeVal {
 font-weight: 500;
 line-height: 20px;
 margin-left: 12px;
+font-size: 12px;
 }
 .completeVal1 {
 font-weight: normal;
 font-size: 12px;
 line-height: 16px;
+color:rgba(255, 255, 255, 0.7);
 }
 .listText{
 color:#FFFFFF;
+font-size: 12px;
 }
 .yourG{
 display:flex;
@@ -49,11 +58,13 @@ justify-content: space-between;
 padding:5px;
 }
 .yourGoals .webix_list_item{
-border-bottom: 1px solid #595E62;
+border-top: 1px solid #384047;
+ border-bottom: 0px; 
+ font-size: 12px;
 }
 /* .myChart */
 .webix_canvas_text.webix_axis_item_y, .webix_canvas_text.webix_axis_item_x{
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
 font-size: 10px;
@@ -70,7 +81,7 @@ color: #94A1B3;
     justify-content: space-between;
 }
 .objTit{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -80,7 +91,7 @@ color: #94A1B3;
     color:#FFFFFF
 }    
 .objRst{
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
@@ -88,7 +99,36 @@ line-height: 16px;
 letter-spacing: 0px;
 text-align: left;
 color:rgba(255, 255, 255, 0.7)
-}
+} 
 .objFire.mdi.mdi-play-circle-outline{
     color: #7A67EB;
 }
+.fontClass .webix_el_box{
+    font-size: 12px;
+}
+.borderB{
+    border-bottom: 1px solid #2B343B;
+    margin-top: 10px;
+    }
+    .colorB{
+        background-color: rgba(34, 41, 46, 1);
+        border: rgba(34, 41, 46, 1);
+        }
+    .webix_view.yourGoals.webix_layout_line{
+        margin-left:0px !important;
+    }
+
+    .webix_dataview_item.tiles {
+        border: 1px solid rgba(32, 38, 43, 0.8);
+        background-color: rgba(32, 38, 43, 0.8);;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 8px;
+padding:2px 5px;
+    }
+    .webix_view.webix_dataview.colorB{
+        margin-top: 10px !important;
+    }

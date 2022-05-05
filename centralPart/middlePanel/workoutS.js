@@ -7,12 +7,14 @@ export const workoutS = {
             {
                 view: "label",
                 label: "Workout statistics",
-                width: 76
+                //width: 76
             },
-            {},
             {
                 view:"richselect",
+                css:"fontClass",
                 value:1, 
+                width:78,
+                //inputWidth:51,
                 yCount:"3", 
                 options:[ 
                     {id:0, value:"Month"}, // изначально выбранный элемент

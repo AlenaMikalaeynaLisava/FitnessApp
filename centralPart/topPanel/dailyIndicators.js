@@ -1,8 +1,9 @@
+import {dataDaylyIndicators} from "../../data/dataSidebarMenu.js";
+
 export const daylyI = {
   gravity: 7,
     view:"dataview",   
-    css:"mainPart borderLess",   
-    //scroll:false,  //why?
+    css:"mainPart borderLess daily",   
     xCount:5,
     select:true,
     type: {
@@ -18,12 +19,5 @@ export const daylyI = {
       </div>
       </div>`
   },
-    data:[
-      { id:1, src:"./icons/sleep.png", title:"Sleep", indicator:"8.3 hr", color:"#FFCB47"},
-      { id:2, src:"./icons/steps.png", title:"Steps", indicator:"8.3 hr", color:"#7A67EB"},
-      { id:3, src:"./icons/water.png", title:"Water", indicator:"8.3 hr", color:"#37A9EF"},
-      { id:4, src:"./icons/food.png", title:"Food", indicator:"8.3 hr", color:"#77D257"},
-      { id:5, src:"./icons/heart.png", title:"Heart", indicator:"8.3 hr", color:"#FE6158"},
-    ]
-
+    data:dataDaylyIndicators
 }

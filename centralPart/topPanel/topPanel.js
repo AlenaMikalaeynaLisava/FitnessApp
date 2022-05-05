@@ -4,7 +4,8 @@ import {daylyI} from './dailyIndicators.js';
 export const topPanel = {
     view:"scrollview", 
     scroll:"xy",
-    gravity: 5,
+    //gravity: 5,
+    height:152,
     // type: 'space',
      css:"mainPart",
     body:{

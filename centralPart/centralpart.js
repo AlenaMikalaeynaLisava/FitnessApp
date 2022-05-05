@@ -19,5 +19,5 @@ export const centralPart = {
         ],
     },
     css: "mainPart",
-      margin:0
+     // margin:0
 };

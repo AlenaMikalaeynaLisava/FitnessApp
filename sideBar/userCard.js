@@ -12,9 +12,9 @@ export const userCard = {
                 </div>
                 <div class="userInfo">
                     <span class="userName">Alisa Epson</span>
-                    <span class="userPosition">Weight: <span class="userResult">59 kg</span></span>
-                    <span class="userPosition">Height: <span class="userResult">5’6”</span></span>
-                    <span class="userPosition">Age :<span class="userResult">25</span></span>
+                    <span class="userPosition">Weight: <span class="userResult">59&nbsp;kg</span></span>
+                    <span class="userPosition">Height: <span class="userResult">5’6”&nbsp;&nbsp;&nbsp;</span></span>
+                    <span class="userPosition">Age :<span class="userResult">25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
                 </div>
             </div>
         `;

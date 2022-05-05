@@ -4,6 +4,7 @@ import {sidebarMenu} from './sidebarMenu.js';
 
 export const sidebar = {
         gravity: 1,
+        css: "dark",
         //width:296,
        // height:995,
         rows: [

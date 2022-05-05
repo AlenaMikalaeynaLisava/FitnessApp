@@ -1,5 +1,6 @@
 export const todayP = {
 	width:312,
+	css:"topColor temp1",
 			cols: [
 				{
 					width:106,
@@ -17,7 +18,6 @@ export const todayP = {
 			radius:60,
 			innerRadius: 45,
 			lineColor:"#7A67EB",
-			//bg:"#7A67EB",
 			donutInnerText: "<div style='color:#7A67EB; font-size: 24px;'>80 %</div>",
 			data: [
 	{ sales:"80", month:"Jan", color: "#7A67EB" },

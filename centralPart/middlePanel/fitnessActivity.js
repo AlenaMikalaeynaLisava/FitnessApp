@@ -2,7 +2,7 @@ export const fitnessA = {
     rows:[
         {
           height:30,
-          css:"yourGoals  listText",
+          css:"yourGoals  listText fitnrssA",
         cols: [
             {
                 view: "label",
@@ -13,6 +13,8 @@ export const fitnessA = {
             {},
             {
                 view:"richselect",
+                css:"fontClass",
+                width:78,
                 value:1, 
                 yCount:"3", 
                 options:[ 
@@ -51,6 +53,9 @@ export const fitnessA = {
           color:"#22292E",
           lines:false
         },
+        tooltip:{
+          template:`<div>#day#</div><div>#steps# steps</div>` 
+      },
         data: [
           { id:1, steps:8000, day:"Mon"},
           { id:2, steps:5000, day:"Tue"},

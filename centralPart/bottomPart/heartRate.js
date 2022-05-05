@@ -1,9 +1,10 @@
 export const heartR = {
   view:"scrollview", 
   scroll:"xy",
+  width:400,
   body:{
    // width:300,
-    //height:307,
+    height:307,
     rows:[
         {
           css:"yourGoals  listText",
@@ -30,7 +31,8 @@ export const heartR = {
     {
         view:"chart",
         scroll:"y",
-        width:300,
+        css:"yourGoals  listText",
+        width:400,
         height: 307,
         type:"splineArea",
         value:"#puls#",
