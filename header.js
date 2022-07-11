@@ -1,12 +1,10 @@
 export const header = {
   view: 'toolbar',
-  gravity:1,
-  maxHeight:56,
   css: "dark",
   cols: [
     {
       view: 'icon',
-      icon: 'mdi mdi-menu',
+      icon: 'mdi mdi-menu color',
     },
     {
       view: 'label',
@@ -15,16 +13,16 @@ export const header = {
     {},
     {
       view: 'icon',
-      icon: 'mdi mdi-information',
+      icon: 'mdi mdi-information color',
     },
     {
       view: 'icon',
-      icon: 'mdi mdi-bell',
+      icon: 'mdi mdi-bell color',
       badge: 5,
     },
     {
       view: 'icon',
-      icon: 'mdi mdi-settings',
+      icon: 'mdi mdi-settings color',
     },
   ],
 };

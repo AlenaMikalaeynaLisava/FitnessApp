@@ -1,8 +1,8 @@
 export const userCard = {
   view: 'template',
   	css: "dark sidebarUser",
-  maxHeight: 247,
-  scroll:true,
+    width:297,
+    height:247,
   template(obj) {
      let html = `
             <div class="userWrapp">

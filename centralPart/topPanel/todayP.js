@@ -1,17 +1,20 @@
 export const todayP = {
-	width:312,
-	css:"topColor temp1",
+	height:152,
+	width:312,	
+	css:"a1",
+	//css:"topColor temp1 a1",
 			cols: [
 				{
+					css:"dark sm",
 					width:106,
 					height:48,
-					css:"topColor",
 					template: "<div style='color: #FFFFFF;'>Today's plan</div><div style='color:  rgba(255, 255, 255, 0.7);'>4 of 5 complated</div>"
 				},
 			
 		{
 			view: "chart",
 			type: "donut",
+			css:"dark",
 			value: "#sales#",
 			color: "#color#",
 			padding: 30,

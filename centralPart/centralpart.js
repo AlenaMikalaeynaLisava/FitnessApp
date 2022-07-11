@@ -6,11 +6,10 @@ import {bottomPanel} from './bottomPart/bottomPanel.js'
 
 
 export const centralPart = {
-  gravity:5,
      view:"scrollview", 
-    // scroll:"xy",
+     css:"mainPart",
      body:{
-      padding:16,
+     // padding:16,
         rows: [
             topbar,
             topPanel,
@@ -19,5 +18,4 @@ export const centralPart = {
         ],
     },
     css: "mainPart",
-     // margin:0
 };

@@ -1,8 +1,10 @@
 export const fitnessA = {
+  width:608,
     rows:[
         {
-          height:30,
-          css:"yourGoals  listText fitnrssA",
+          height:44,
+          width:608,
+          css:"yourGoals  listText fitnrssA .yourG",
         cols: [
             {
                 view: "label",
@@ -14,7 +16,7 @@ export const fitnessA = {
             {
                 view:"richselect",
                 css:"fontClass",
-                width:78,
+                width:74,
                 value:1, 
                 yCount:"3", 
                 options:[ 
@@ -54,16 +56,16 @@ export const fitnessA = {
           lines:false
         },
         tooltip:{
-          template:`<div>#day#</div><div>#steps# steps</div>` 
+          template:`<div>#data#</div><div>#steps# steps</div>` 
       },
         data: [
-          { id:1, steps:8000, day:"Mon"},
-          { id:2, steps:5000, day:"Tue"},
-          { id:3, steps:4500, day:"Wed"},
-          { id:4, steps:7800, day:"Thu"},
-          { id:5, steps:3200, day:"Fri"},
-          { id:6, steps:9500, day:"Sat"},
-          { id:7, steps:8000, day:"Sun"},
+          { id:1, steps:8000, day:"Mon", data:"13 June 2022"},
+          { id:2, steps:5000, day:"Tue", data:"14 June 2022"},
+          { id:3, steps:4500, day:"Wed", data:"15 June 2022"},
+          { id:4, steps:7800, day:"Thu", data:"16 June 2022"},
+          { id:5, steps:3200, day:"Fri", data:"17 June 2022"},
+          { id:6, steps:9500, day:"Sat", data:"18 June 2022"},
+          { id:7, steps:8000, day:"Sun", data:"19 June 2022"},
       
       ]
       }

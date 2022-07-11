@@ -9,10 +9,10 @@ export const dataSidebarMenu = [
 ];
 export const dataDaylyIndicators = [
 	{ id:1, src:"./icons/sleep.png", title:"Sleep", indicator:"8.3 hr", color:"#FFCB47"},
-	{ id:2, src:"./icons/steps.png", title:"Steps", indicator:"8.3 hr", color:"#7A67EB"},
-	{ id:3, src:"./icons/water.png", title:"Water", indicator:"8.3 hr", color:"#37A9EF"},
-	{ id:4, src:"./icons/food.png", title:"Food", indicator:"8.3 hr", color:"#77D257"},
-	{ id:5, src:"./icons/heart.png", title:"Heart", indicator:"8.3 hr", color:"#FE6158"},
+	{ id:2, src:"./icons/steps.png", title:"Steps", indicator:"10 000", color:"#7A67EB"},
+	{ id:3, src:"./icons/water.png", title:"Water", indicator:"6 cups", color:"#37A9EF"},
+	{ id:4, src:"./icons/food.png", title:"Food", indicator:"1200 kkal", color:"#77D257"},
+	{ id:5, src:"./icons/heart.png", title:"Heart", indicator:"48 bpm", color:"#FE6158"},
 ];
 
 export const dataTraining = [

@@ -1,15 +1,42 @@
 .mainPart{
-    background: #2B343B;
+    background: #2B343B !important;
     border-color: #2B343B;
 }
+.webix_view .webix_layout_line .mainPart, .a1 {
+    display: flex;
+    align-items: center;
+}
+.webix_view .webix_control .webix_el_richselect{
+    height:32px !important;
+}
+.webix_el_box{
+    font-family:'Roboto'!important;
+}
 .dark{
-    background: #20262B;
+    background-color: #20262B !important;
     border-color: #20262B;
  }
+ /* header color */
+ .color{
+    color: rgba(255, 255, 255, 0.7) !important;
+ }
+ .webix_badge {
+    background-color: #FF5C4C;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-weight: 900;
+}
+
+
+
+
 .webix_el_label .webix_el_box{
     color: #FFFFFF;
 }
 .webix_chart{
     background:  rgba(34, 41, 46, 1);
     border-color:  rgba(34, 41, 46, 1);
+}
+.webix_scroll_cont {
+    overflow: visible !important;
 }

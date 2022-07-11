@@ -5,7 +5,7 @@ export const middlePanel = {
     type: 'space',
     paddingX:0,
     css:"mainPart",
-    gravity:8,
+    //gravity:8,
        // height:180,
         cols: [
             yourGoals,

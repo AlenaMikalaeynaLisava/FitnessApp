@@ -1,4 +1,6 @@
 export const workoutS = {
+    width:400,
+    css:"col",
     rows:[
         {
             height:30,
@@ -24,8 +26,12 @@ export const workoutS = {
             }
         ]
     },
-    {cols:[
+    {
+     
+        cols:[
         {
+            height:235,
+            width:240,
         
 			view: "chart",
 			type: "donut",
@@ -35,14 +41,16 @@ export const workoutS = {
             },
 			value: "#sales#",
 			color: "#color#",
-			radius:60,
+			//radius:60,
+            radius:95,
 			border:false,
-			innerRadius: 45,
+			//innerRadius: 45,
+            innerRadius: 75,
 			lineColor:"#F4AB5C",
 			donutInnerText: `<div>
-            <span class='mdi mdi-fire'></span>
-            <span>350Calories</span>
-            <span>35 min</span>
+            <span style='font-size: 48px;' class='mdi mdi-fire yel'></span>
+            <div><span style='font-size: 20px;'>350</span> Calories</div>
+            <div><span style='font-size: 20px;'>35</span> min</div>
             </div>`,
 			data: [
 	{ sales:"20", month:"Jan", color: "#595E62" },

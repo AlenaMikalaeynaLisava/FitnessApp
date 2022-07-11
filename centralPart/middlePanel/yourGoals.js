@@ -1,5 +1,7 @@
 export const yourGoals = {
     type:"clean",
+    width:312,
+    height:380,
     //css:"yourGoals",
     rows:[
         { css:"yourGoals listText" , //listText
@@ -17,13 +19,13 @@ export const yourGoals = {
               const html = `
               <div class="yourG">
               
-              <img style="height:20px;" src=${obj.src}></img> <span style="color: rgba(255, 255, 255, 0.7);"> ${obj.title}</span>
+              <img style="height:20px;" src=${obj.src}></img> <span style="color: rgba(255, 255, 255, 0.5);"> ${obj.title}</span>
              
               <div>
-                  <div class="completeWrapp completeWrapp">
+                  <div class="completeWrapp completeWrapp2">
                       <span class="completeBar" style="width:${obj.complete}%"></span>
                   </div>
-                  <div class="completeVal"><span style="color: rgba(255, 255, 255, 0.7);">${obj.indicator1}</span><span>${obj.indicator}</span></div>
+                  <div class="completeVal"><span>${obj.indicator1}</span><span style="color: rgba(255, 255, 255, 0.5);">${obj.indicator}</span></div>
                   </div>
                   </div>
               `;

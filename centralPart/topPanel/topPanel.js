@@ -3,16 +3,11 @@ import {daylyI} from './dailyIndicators.js';
 
 export const topPanel = {
     view:"scrollview", 
-    scroll:"xy",
-    //gravity: 5,
-    height:152,
-    // type: 'space',
-     css:"mainPart",
+   scroll:"xy",
+   css:"mainPart1", 
+ height:152,
     body:{
-
-   // scroll:"xy",
-    //maxHeight:152,
-    //maxWidth:1352,
+      type: "wide",
           cols: [
               todayP,
               daylyI

@@ -2,16 +2,17 @@ import {userCard} from './userCard.js';
 import {sidebarMenu} from './sidebarMenu.js';
 
 
-export const sidebar = {
-        gravity: 1,
-        css: "dark",
-        //width:296,
-       // height:995,
+export const sidebar = {  
+  css:"dark",
+ // height:995,
         rows: [
+          {height:19,
+          //  css: "noBorder",
+          },
           userCard,
           sidebarMenu,
           {
-            gravity:1
+            height:410
           }
         ],
 };

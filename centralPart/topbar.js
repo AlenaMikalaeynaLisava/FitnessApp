@@ -1,23 +1,27 @@
 export const topbar = {
-	margin: 10,
-  gravity: 1,
+css:"mainPart",
+height:64,
+//	margin: 10,
+ // gravity: 1,
 	cols: [
 		{
+            
 			view: "label",
 			label: "Dashboard",
-			width: 76,
-     // height:50,
+            width:78,
+            height:32
 		},
 		{
             view:"richselect",
-            css:"topRich",
             width:112,
-            value:1, 
+            inputHeight:32,
+            height:32,
+            value:2, 
             yCount:"3", 
             options:[ 
-                {id:0, value:"Yesterday"}, // изначально выбранный элемент
-                {id:1, value:"Today"}, 
-                {id:2, value:"Tomorrow"}
+                {id:1, value:"Yesterday"}, // изначально выбранный элемент
+                {id:2, value:"Today"}, 
+                {id:3, value:"Tomorrow"}
             ]
         }, 
         {}

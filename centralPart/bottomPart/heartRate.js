@@ -1,16 +1,14 @@
 export const heartR = {
   view:"scrollview", 
-  scroll:"xy",
-  width:400,
   body:{
-   // width:300,
-    height:307,
     rows:[
         {
           css:"yourGoals  listText",
-          height:30,
+          height:44,
+          width:400,
         cols: [
             {
+              css:"yourGoals",
                 view: "label",
                 label: "Heart rate",
                 width: 70
@@ -30,7 +28,6 @@ export const heartR = {
     },
     {
         view:"chart",
-        scroll:"y",
         css:"yourGoals  listText",
         width:400,
         height: 307,
@@ -40,17 +37,9 @@ export const heartR = {
           border: true,
 borderColor: "#EB2217",
 borderWidth: 2,
-        item:{
-          //borderColor: "#1293f8",
-          //color: "#ffffff"
-        },
         line:{
           color:"#CC516A",
-          //width:8,
-          lines:false
-          //     
-//     color:"#22292E",
-//     
+          lines:false   
         },
         xAxis:{
           template:"#time#",
@@ -60,15 +49,14 @@ borderWidth: 2,
         offset:0,
         yAxis:{
           start:50,
-         // end:170,
-         end:120,
+         end:170,
           step:20,
     color:"#22292E",
     lines:false
         },
-        // tooltip:{
-        //     template: "#puls#"
-        //   },
+        tooltip:{
+          template:`<div>#time#</div><div>#puls# bpm</div>` 
+      },
         data: [
           { id:1, puls:100, time:"12 pm"},
           { id:2, puls:80, time:"1 pm"},
@@ -87,42 +75,3 @@ borderWidth: 2,
     ]
   }
 }
-// {
-//   view:"chart",
-//   width:300,
-//   type:"splineArea",
-//   value:"#steps#",
-//  color:"#2F285A",
-//   alpha:0.8,
-//   padding:{
-//     top: 0,
-//     right: 10,
-//     bottom: 20,
-//     left:35
-// },
-//   border: true,
-// borderColor: "#8666C5",
-// borderWidth: 2,
-//   xAxis:{
-//     template:"#day#",
-//     color:"#22292E",
-//     lines:false
-//   },
-//   yAxis:{
-//     start:0,
-//     end:11000,
-//     step:2000,
-//     color:"#22292E",
-//     lines:false
-//   },
-//   data: [
-//     { id:1, steps:8000, day:"Mon"},
-//     { id:2, steps:5000, day:"Tue"},
-//     { id:3, steps:4500, day:"Wed"},
-//     { id:4, steps:7800, day:"Thu"},
-//     { id:5, steps:3200, day:"Fri"},
-//     { id:6, steps:9500, day:"Sat"},
-//     { id:7, steps:8000, day:"Sun"},
-
-// ]
-// }

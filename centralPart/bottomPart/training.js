@@ -1,34 +1,28 @@
 import {dataTraining} from "../../data/dataSidebarMenu.js";
 
 export const training = {
-    //type:"clean",
-    //height:180,
-    //width:936,
-   // margin:20,
-    scroll:"x",
-    css:"yourGoals",
+    css:"yourGoals s12",
     rows:[
         {
             css:"yourGoals  listText borderB",
             view: "template",
             template: "Training",
-            height:34,
-            //gravity: 1,
+            height:44,
           },
  {
-    //height:100,
+  width:936,//902
      cols:[
-    { view:"icon", icon:"webix_icon wxi-angle-left", align:"left"},
+    { view:"icon", icon:"webix_icon wxi-angle-left", align:"left", height:307},
       {
-       // gravity:4,
        view:"dataview", 
-       css:"colorB",     
+       css:"colorB",   
+       width:854,  
        height: 307,
        xCount:3,
        select:true,
        type: {
          height:260,
-         width:248, 
+         width:285,//248, 
          css:"mainPart",
          type: "tiles",
        },
